@@ -1,0 +1,59 @@
+
+command = ~/.config/ghostty/open-tmux.sh
+
+window-padding-x = 20
+window-padding-y = 10
+window-padding-balance = true
+# background-opacity = 0.96
+background-blur-radius = 20
+foreground = #d0d0d0
+
+# theme=vesper
+# theme=Everforest Dark - Hard
+theme=Kanagawa Dragon
+# background = black
+background = #101010
+# theme=Batman
+# theme=catppuccin-mocha
+
+font-size = 15
+# font-thicken = true
+font-family = CommitMonoPinguim
+# font-family = Dank Mono
+
+macos-titlebar-style = hidden
+keybind = shift+enter=text:\n
+
+adjust-cell-height = 25%
+# adjust-cell-height = 70%
+confirm-close-surface = true
+
+macos-option-as-alt = false
+quick-terminal-animation-duration = 0.08
+
+cursor-style = block
+cursor-color = #b0b0b0
+
+# NVim bindins
+keybind = cmd+k=text:,ff
+
+# TMUX bindins
+keybind = cmd+slash=text:\x13P
+keybind = cmd+,=text:\x13,
+keybind = cmd+o=text:\x13O
+keybind = cmd+d=text:\x13D
+
+keybind = cmd+w=text:\x13x
+keybind = cmd+n=text:\x13c
+
+# \x13 == ctrl + s
+keybind = cmd+digit_1=text:\x131
+keybind = cmd+digit_2=text:\x132
+keybind = cmd+digit_3=text:\x133
+keybind = cmd+digit_4=text:\x134
+keybind = cmd+digit_5=text:\x135
+keybind = cmd+digit_6=text:\x136
+
+
+
+
