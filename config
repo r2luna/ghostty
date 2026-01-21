@@ -4,21 +4,25 @@ command = ~/.config/ghostty/open-tmux.sh
 window-padding-x = 20
 window-padding-y = 10
 window-padding-balance = true
-# background-opacity = 0.96
+# background-opacity = 0.87
 background-blur-radius = 20
+# background-blur = macos-glass-regular
 foreground = #d0d0d0
+
+theme=Yukinord
 
 # theme=vesper
 # theme=Everforest Dark - Hard
-theme=Kanagawa Dragon
+# theme=Kanagawa Dragon
 # background = black
-background = #101010
+# background = #101010
 # theme=Batman
 # theme=catppuccin-mocha
 
 font-size = 15
-# font-thicken = true
 font-family = CommitMonoPinguim
+
+# font-thicken = true
 # font-family = Dank Mono
 
 macos-titlebar-style = hidden
