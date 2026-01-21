@@ -3,7 +3,7 @@
 # Colors match the Neovim theme color palette
 
 # 16-color palette (standard ANSI colors)
-palette = 0=#1c212a
+palette = 0=#1a1c21
 palette = 1=#bf616a
 palette = 2=#a3be8c
 palette = 3=#ebcb8b
@@ -21,12 +21,12 @@ palette = 14=#8fbcbb
 palette = 15=#eceff4
 
 # Background and foreground
-background = #1c212a
+background = #1a1c21
 foreground = #d8dee9
 
 # Cursor colors
 cursor-color = #eceff4
-cursor-text = #1c212a
+cursor-text = #1a1c21
 
 # Selection colors
 selection-background = #5e81ac
