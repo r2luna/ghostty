@@ -1,6 +1,6 @@
-# Yukinord - Ghostty Theme
-# Based on the VSCode theme inspired by Nord and Nord Deep
-# Colors match the Neovim theme color palette
+# Pinnord - Ghostty Theme
+# Dark gray theme with subtle blue tones
+# Colors match the Neovim pinnord.nvim color palette
 
 # 16-color palette (standard ANSI colors)
 palette = 0=#1a1c21
