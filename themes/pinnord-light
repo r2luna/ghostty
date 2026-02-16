@@ -1,0 +1,33 @@
+# Pinnord Light - Ghostty Theme
+# Light variant based on One Light / Solarized Light palette
+# Colors match the Neovim pinnord.nvim light color palette
+
+# 16-color palette (standard ANSI colors)
+palette = 0=#073642
+palette = 1=#dc322f
+palette = 2=#7aca8c
+palette = 3=#bf9c49
+palette = 4=#7a9dc8
+palette = 5=#d33682
+palette = 6=#2aa198
+palette = 7=#586e75
+palette = 8=#002b36
+palette = 9=#cb4b16
+palette = 10=#586e75
+palette = 11=#657b83
+palette = 12=#839496
+palette = 13=#6c71c4
+palette = 14=#93a1a1
+palette = 15=#073642
+
+# Background and foreground
+background = #FDF6E3
+foreground = #000000
+
+# Cursor colors
+cursor-color = #657b83
+cursor-text = #FDF6E3
+
+# Selection colors
+selection-background = #D8DEE9
+selection-foreground = #000000
