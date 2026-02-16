@@ -7,9 +7,7 @@ window-padding-balance = true
 # background-opacity = 0.87
 background-blur-radius = 20
 # background-blur = macos-glass-regular
-foreground = #d0d0d0
-
-theme=pinnord
+theme=light:pinnord-light,dark:pinnord
 
 # theme=vesper
 # theme=Everforest Dark - Hard
