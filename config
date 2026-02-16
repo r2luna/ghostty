@@ -19,8 +19,9 @@ theme=pinnord
 # theme=Batman
 # theme=catppuccin-mocha
 
-font-size = 15
-font-family = CommitMonoPinguim
+font-size = 16
+# font-family = CommitMonoPinguim
+font-family = Maple Mono NF
 
 # font-thicken = true
 # font-family = Dank Mono
