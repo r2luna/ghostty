@@ -1,9 +1,35 @@
+# +----------------------------------------------------------------------------
+# | Catppuccin Mocha — Dark Theme
+# +----------------------------------------------------------------------------
+# |
+# | Stock Catppuccin Mocha palette. Not currently selected in the main config;
+# | kept here as an alternative.
+# |
+# +----------------------------------------------------------------------------
+
+# +----------------------------------------------------------------------------
+# | Background, Foreground, Cursor & Selection
+# +----------------------------------------------------------------------------
+# |
+# | Base surface colors plus cursor and selection highlighting.
+# |
+# +----------------------------------------------------------------------------
+
 background = #1e1e2e
 foreground = #cdd6f4
 cursor-color = #cdd6f4
 cursor-text = #1e1e2e
 selection-background = #45475a
 selection-foreground = #cdd6f4
+
+# +----------------------------------------------------------------------------
+# | ANSI Palette (16 colors)
+# +----------------------------------------------------------------------------
+# |
+# | Indices 0-7 are the normal colors, 8-15 the bright variants, in the order
+# | black, red, green, yellow, blue, magenta, cyan, white.
+# |
+# +----------------------------------------------------------------------------
 
 palette = 0=#45475a
 palette = 1=#f38ba8

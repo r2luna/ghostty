@@ -1,60 +1,117 @@
+# +----------------------------------------------------------------------------
+# | Startup Command
+# +----------------------------------------------------------------------------
+# |
+# | Script executed when a new surface opens. Here it boots/attaches tmux so
+# | every Ghostty window starts inside a session.
+# |
+# +----------------------------------------------------------------------------
 
 command = ~/.config/ghostty/open-tmux.sh
+
+# +----------------------------------------------------------------------------
+# | Window & Appearance
+# +----------------------------------------------------------------------------
+# |
+# | Inner padding, titlebar style and the blur radius used when a theme enables
+# | background transparency (see the Theme block below).
+# |
+# +----------------------------------------------------------------------------
 
 window-padding-x = 20
 window-padding-y = 10
 window-padding-balance = true
-# background-opacity = 0.87
 background-blur-radius = 20
-# background-blur = macos-glass-regular
-theme=light:pinnord-light,dark:pinnord
-
-# theme=vesper
-# theme=Everforest Dark - Hard
-# theme=Kanagawa Dragon
-# background = black
-# background = #101010
-# theme=Batman
-# theme=catppuccin-mocha
-
-font-size = 16
-# font-family = CommitMonoPinguim
-font-family = Maple Mono NF
-
-# font-thicken = true
-# font-family = Dank Mono
-
 macos-titlebar-style = hidden
-keybind = shift+enter=text:\n
 
-adjust-cell-height = 25%
-# adjust-cell-height = 70%
-confirm-close-surface = true
+# +----------------------------------------------------------------------------
+# | Theme
+# +----------------------------------------------------------------------------
+# |
+# | Auto-switches with the macOS appearance: pinnord-light when the system is
+# | light, pinnord when dark. Opacity/blur live inside the dark theme file so
+# | only the dark mode is transparent.
+# |
+# +----------------------------------------------------------------------------
 
-macos-option-as-alt = false
-quick-terminal-animation-duration = 0.08
+theme = light:pinnord-light,dark:pinnord
+
+# +----------------------------------------------------------------------------
+# | Font
+# +----------------------------------------------------------------------------
+# |
+# | Typeface and size used for the terminal grid.
+# |
+# +----------------------------------------------------------------------------
+
+font-family = Maple Mono NF
+font-size = 13
+
+# +----------------------------------------------------------------------------
+# | Cursor
+# +----------------------------------------------------------------------------
+# |
+# | Cursor shape and color (overrides the color provided by the active theme).
+# |
+# +----------------------------------------------------------------------------
 
 cursor-style = block
 cursor-color = #b0b0b0
 
-# NVim bindins
+# +----------------------------------------------------------------------------
+# | Behavior
+# +----------------------------------------------------------------------------
+# |
+# | Line height, close confirmation, macOS option-key handling and the
+# | drop-down quick terminal animation speed.
+# |
+# +----------------------------------------------------------------------------
+
+adjust-cell-height = 25%
+confirm-close-surface = true
+macos-option-as-alt = false
+quick-terminal-animation-duration = 0.08
+
+# +----------------------------------------------------------------------------
+# | Keybindings — General
+# +----------------------------------------------------------------------------
+# |
+# | Send a literal newline with shift+enter (handy for multi-line prompts).
+# |
+# +----------------------------------------------------------------------------
+
+keybind = shift+enter=text:\n
+
+# +----------------------------------------------------------------------------
+# | Keybindings — Neovim
+# +----------------------------------------------------------------------------
+# |
+# | cmd+k types the Neovim file-finder sequence (,ff).
+# |
+# +----------------------------------------------------------------------------
+
 keybind = cmd+k=text:,ff
 
-# TMUX bindins
+# +----------------------------------------------------------------------------
+# | Keybindings — tmux
+# +----------------------------------------------------------------------------
+# |
+# | These send the tmux prefix (ctrl+s == escape code \x13) followed by a key,
+# | so cmd shortcuts trigger the matching tmux binding. The actual action for
+# | each key is defined in the tmux config; cmd+digit_N selects window N.
+# |
+# +----------------------------------------------------------------------------
+
 keybind = cmd+slash=text:\x13P
 keybind = cmd+,=text:\x13,
 keybind = cmd+o=text:\x13O
 keybind = cmd+d=text:\x13D
-
 keybind = cmd+w=text:\x13x
 keybind = cmd+n=text:\x13c
 
-# \x13 == ctrl + s
 keybind = cmd+digit_1=text:\x131
 keybind = cmd+digit_2=text:\x132
 keybind = cmd+digit_3=text:\x133
 keybind = cmd+digit_4=text:\x134
 keybind = cmd+digit_5=text:\x135
 keybind = cmd+digit_6=text:\x136
-
-

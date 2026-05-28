@@ -1,8 +1,21 @@
-# Pinnord Light - Ghostty Theme
-# Light variant based on One Light / Solarized Light palette
-# Colors match the Neovim pinnord.nvim light color palette
+# +----------------------------------------------------------------------------
+# | Pinnord Light — Light Theme
+# +----------------------------------------------------------------------------
+# |
+# | Light variant based on One Light / Solarized Light. Colors match the Neovim
+# | pinnord.nvim light palette so the editor and terminal stay in sync.
+# |
+# +----------------------------------------------------------------------------
 
-# 16-color palette (standard ANSI colors)
+# +----------------------------------------------------------------------------
+# | ANSI Palette (16 colors)
+# +----------------------------------------------------------------------------
+# |
+# | Indices 0-7 are the normal colors, 8-15 the bright variants, in the order
+# | black, red, green, yellow, blue, magenta, cyan, white.
+# |
+# +----------------------------------------------------------------------------
+
 palette = 0=#073642
 palette = 1=#dc322f
 palette = 2=#7aca8c
@@ -20,14 +33,35 @@ palette = 13=#6c71c4
 palette = 14=#93a1a1
 palette = 15=#073642
 
-# Background and foreground
+# +----------------------------------------------------------------------------
+# | Background & Foreground
+# +----------------------------------------------------------------------------
+# |
+# | Base terminal background and default text color.
+# |
+# +----------------------------------------------------------------------------
+
 background = #FDF6E3
 foreground = #000000
 
-# Cursor colors
+# +----------------------------------------------------------------------------
+# | Cursor
+# +----------------------------------------------------------------------------
+# |
+# | Cursor fill color and the color of the glyph under the cursor.
+# |
+# +----------------------------------------------------------------------------
+
 cursor-color = #657b83
 cursor-text = #FDF6E3
 
-# Selection colors
+# +----------------------------------------------------------------------------
+# | Selection
+# +----------------------------------------------------------------------------
+# |
+# | Colors used for highlighted/selected text.
+# |
+# +----------------------------------------------------------------------------
+
 selection-background = #D8DEE9
 selection-foreground = #000000
