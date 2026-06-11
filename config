@@ -28,13 +28,13 @@ macos-titlebar-style = hidden
 # | Theme
 # +----------------------------------------------------------------------------
 # |
-# | Auto-switches with the macOS appearance: pinnord-light when the system is
-# | light, pinnord when dark. Opacity/blur live inside the dark theme file so
-# | only the dark mode is transparent.
+# | Auto-switches with the macOS appearance: github-light-tritanopia when the
+# | system is light, pinnord when dark. Opacity/blur live inside the dark theme
+# | file so only the dark mode is transparent.
 # |
 # +----------------------------------------------------------------------------
 
-theme = light:pinnord-light,dark:pinnord
+theme = light:github-light-tritanopia,dark:pinnord
 
 # +----------------------------------------------------------------------------
 # | Font
